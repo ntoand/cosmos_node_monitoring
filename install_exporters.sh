@@ -4,8 +4,8 @@ read -p "Enter bond_denom value, for example, ubld for Agoric: " BOND_DENOM
 read -p "Enter bench_prefix value, for example, agoric for Agoric: " BENCH_PREFIX
 read -p "Enter rpc_port value or hit Enter for default port [26657]: " RPC_PORT
 RPC_PORT=${RPC_PORT:-26657}
-read -p "Enter grpc_port value or hit Enter for default port [9090]: " GRPC_PORT
-GRPC_PORT=${GRPC_PORT:-9090}
+read -p "Enter grpc_port value or hit Enter for default port [9080]: " GRPC_PORT
+GRPC_PORT=${GRPC_PORT:-9080}
 
 echo '================================================='
 echo -e "bond_denom: \e[1m\e[32m$BOND_DENOM\e[0m"
